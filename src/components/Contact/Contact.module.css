@@ -1,0 +1,36 @@
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.info {
+  display: flex;
+  gap: 10px;
+}
+
+.contactIcon {
+  color: #052a4b;
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 120px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+  background-color: #dce9f5;
+  color: #052a4b;
+  font-weight: 600;
+  box-shadow: 6px 6px 12px rgba(34, 45, 65, 0.4),
+    -6px -6px 12px rgba(240, 248, 255, 0.2);
+  transition: all 350ms linear;
+}
+
+.deleteBtn:hover {
+  background-color: #052a4b;
+  color: #dce9f5;
+}
